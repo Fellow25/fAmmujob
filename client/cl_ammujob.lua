@@ -572,19 +572,23 @@ function MenuCraftAmmu()
                             elseif tonumber(choixnbmet) == Ammujob.craft[10].metaux and tonumber(choixnbmeche) == Ammujob.craft[10].meche and tonumber(choixnbcan) == Ammujob.craft[10].canon and tonumber(choixnblev) == Ammujob.craft[10].levier then
                                 RageUI.Popup({message = "~g~Le craft a réussi, vous avez perdu tout les matériaux utilisé et vous avez reçu votre arme"})
                                 local item = Ammujob.craft[10].weapon
-                                TriggerServerEvent('craft:gg1', item, tonumber(choixnbmet), tonumber(choixnbmeche), tonumber(choixnbcan), tonumber(choixnblev))
+                                TriggerServerEvent('craft:gg', item, tonumber(choixnbmet), tonumber(choixnbmeche), tonumber(choixnbcan), tonumber(choixnblev))
                             elseif tonumber(choixnbmet) == Ammujob.craft[11].metaux and tonumber(choixnbmeche) == Ammujob.craft[11].meche and tonumber(choixnbcan) == Ammujob.craft[11].canon and tonumber(choixnblev) == Ammujob.craft[11].levier then
                                 RageUI.Popup({message = "~g~Le craft a réussi, vous avez perdu tout les matériaux utilisé et vous avez reçu votre arme"})
                                 local item = Ammujob.craft[11].weapon
-                                TriggerServerEvent('craft:gg1', item, tonumber(choixnbmet), tonumber(choixnbmeche), tonumber(choixnbcan), tonumber(choixnblev))
+                                TriggerServerEvent('craft:gg', item, tonumber(choixnbmet), tonumber(choixnbmeche), tonumber(choixnbcan), tonumber(choixnblev))
                             elseif tonumber(choixnbmet) == Ammujob.craft[12].metaux and tonumber(choixnbmeche) == Ammujob.craft[12].meche and tonumber(choixnbcan) == Ammujob.craft[12].canon and tonumber(choixnblev) == Ammujob.craft[12].levier then
                                 RageUI.Popup({message = "~g~Le craft a réussi, vous avez perdu tout les matériaux utilisé et vous avez reçu votre arme"})
                                 local item = Ammujob.craft[12].weapon
-                                TriggerServerEvent('craft:gg1', item, tonumber(choixnbmet), tonumber(choixnbmeche), tonumber(choixnbcan), tonumber(choixnblev))
+                                TriggerServerEvent('craft:gg', item, tonumber(choixnbmet), tonumber(choixnbmeche), tonumber(choixnbcan), tonumber(choixnblev))
                             elseif tonumber(choixnbmet) == Ammujob.craft[13].metaux and tonumber(choixnbmeche) == Ammujob.craft[13].meche and tonumber(choixnbcan) == Ammujob.craft[13].canon and tonumber(choixnblev) == Ammujob.craft[13].levier then
                                 RageUI.Popup({message = "~g~Le craft a réussi, vous avez perdu tout les matériaux utilisé et vous avez reçu votre arme"})
                                 local item = Ammujob.craft[13].weapon
-                                TriggerServerEvent('craft:gg1', item, tonumber(choixnbmet), tonumber(choixnbmeche), tonumber(choixnbcan), tonumber(choixnblev))
+                                TriggerServerEvent('craft:gg', item, tonumber(choixnbmet), tonumber(choixnbmeche), tonumber(choixnbcan), tonumber(choixnblev))
+			    elseif tonumber(choixnbmet) == Ammujob.craft[14].metaux and tonumber(choixnbmeche) == Ammujob.craft[14].meche and tonumber(choixnbcan) == Ammujob.craft[14].canon and tonumber(choixnblev) == Ammujob.craft[14].levier then
+                                RageUI.Popup({message = "~g~Le craft a réussi, vous avez perdu tout les matériaux utilisé et vous avez reçu votre arme"})
+                                local item = Ammujob.craft[14].weapon
+                                TriggerServerEvent('craft:gg', item, tonumber(choixnbmet), tonumber(choixnbmeche), tonumber(choixnbcan), tonumber(choixnblev))
                             else
                                 RageUI.Popup({message = "~r~Craft non réussi, vous avez perdu tout les matériaux utilisé!"})
                                 TriggerServerEvent('h4ci_craft:nonvalider', tonumber(choixnbmet), tonumber(choixnbmeche), tonumber(choixnbcan), tonumber(choixnblev))
