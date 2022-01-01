@@ -51,10 +51,10 @@ Ammujob.craft = {
 	{name = "Fusil à pompe", weapon = "pumpshotgun", metaux = 200, canon = 20, meche = 20, levier = 20},
 	{name = "Fusil d'assaut", weapon = "assaultrifle", metaux = 250, canon = 45, meche = 45, levier = 45},
 	{name = "Carabine compacte", weapon = "compactrifle", metaux = 500, canon = 90, meche = 90, levier = 90},
-	{name = "Munitions pistolet", weapon = "pistol_ammo", metaux = 15, canon = 0, meche = 0, levier = 0},
-	{name = "Munitions d'assaut", weapon = "rifle_ammo", metaux = 30, canon = 0, meche = 0, levier = 0},
-	{name = "Cartouche", weapon = "shotgun_ammo", metaux = 45, canon = 0, meche = 0, levier = 0},
-	{name = "Munitions SMG", weapon = "smg_ammo", metaux = 60, canon = 0, meche = 0, levier = 0}
+	{name = "Munitions pistolet", weapon = "pistol_ammo_box", metaux = 15, canon = 0, meche = 0, levier = 0},
+	{name = "Munitions d'assaut", weapon = "rifle_ammo_box", metaux = 30, canon = 0, meche = 0, levier = 0},
+	{name = "Cartouche", weapon = "shotgun_ammo_box", metaux = 45, canon = 0, meche = 0, levier = 0},
+	{name = "Munitions SMG", weapon = "smg_ammo_box", metaux = 60, canon = 0, meche = 0, levier = 0}
 }
 
 GAmmuvoiture = {
