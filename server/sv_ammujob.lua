@@ -101,17 +101,6 @@ AddEventHandler('craft:gg', function(item, nbmetaux, nbmeche, nbcanon, nblevier)
     xPlayer.removeInventoryItem('levier', nblevier)
 end)
 
-RegisterNetEvent('craft:gg1')
-AddEventHandler('craft:gg1', function(item, nbmetaux, nbmeche, nbcanon, nblevier)
-    local _source = source
-    local xPlayer = ESX.GetPlayerFromId(source) 
-    xPlayer.addInventoryItem(item, 25)
-    xPlayer.removeInventoryItem('metaux', nbmetaux)
-    xPlayer.removeInventoryItem('meche', nbmeche)
-    xPlayer.removeInventoryItem('canon', nbcanon)
-    xPlayer.removeInventoryItem('levier', nblevier)
-end)
-
 RegisterNetEvent('h4ci_craft:nonvalider')
 AddEventHandler('h4ci_craft:nonvalider', function(nbmetaux, nbmeche, nbcanon, nblevier)
     local _source = source
